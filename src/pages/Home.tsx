@@ -28,10 +28,9 @@ const Home:React.FC = ()=>{
     }
 
     const handleRemoveItem = (e: MouseEvent<HTMLButtonElement>,item:IItem)=>{
-        const newItems:IItem[] = []
-        items.forEach((index)=>{
-            if(index.id !== item.id){
-                newItems[items.indexOf(item)] = index
+        const newItems:IItem[] = items.filter((I)=>{
+            if(I.id !== item.id){
+                return I
             }
         })
         setItems(newItems)

@@ -52,6 +52,8 @@ export const List = styled.div`
             &:hover{
                 button{
                     display:inline-block;
+                    border:0;
+                    background-color:transparent;
                 }
             }
             margin-top:10px;
@@ -67,7 +69,6 @@ export const List = styled.div`
             button{
                 border:0;
                 display:none;
-
             }
         }
         
