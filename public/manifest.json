@@ -18,30 +18,25 @@
         "sizes": "512x512"
       },
       {
-        "src": "./ListIcon96.png",
+        "src": "./ListIcon192.png",
         "type": "image/png",
-        "sizes": "96x96"
+        "sizes": "192x192"
       },
       {
-        "src": "./ListIcon76.png",
+        "src": "./Images/76.png",
         "type": "image/png",
         "sizes": "76x76"
-      }
-      ,
-      {
-        "src": "./ListIcon128.png",
-        "type": "image/png",
-        "sizes": "128x128"
       },
       {
-        "src": "./ListIcon167.png",
+        "src": "./Images/167.png",
         "type": "image/png",
         "sizes": "167x167"
       },
       {
-        "src": "./ListIcon192.png",
+        "src": "./ListIcon128.png",
         "type": "image/png",
-        "sizes": "192x192"
+        "sizes": "128x128"
       }
+      
     ]
   }
