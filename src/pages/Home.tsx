@@ -29,7 +29,7 @@ const Home:React.FC = ()=>{
 
     const handleRemoveItem = (e: MouseEvent<HTMLButtonElement>,item:IItem)=>{
         const newItems = items.filter((index)=>{
-            if(index.id !== item.id){
+            if(index.id != item.id){
                 return index
             }
         })
