@@ -7,7 +7,6 @@
     "scope": "/",
     "start_url": "/",
     "icons": [
-    
       {
         "src": "./favicon.ico",
         "type": "image/x-icon",
