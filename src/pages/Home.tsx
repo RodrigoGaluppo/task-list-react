@@ -30,7 +30,7 @@ const Home:React.FC = ()=>{
     const handleRemoveItem = (e: MouseEvent<HTMLButtonElement>,item:IItem)=>{
         const newItems:IItem[] = []
         items.forEach((index)=>{
-            if(index.id != item.id){
+            if(index.id !== item.id){
                 newItems[items.indexOf(item)] = index
             }
         })
@@ -40,7 +40,7 @@ const Home:React.FC = ()=>{
     const handleSubmit = (e:FormEvent<HTMLFormElement>,item:IItem)=>{
         e.preventDefault()
 
-        if(inputValue == ""){
+        if(inputValue === ""){
             return
         }
 
@@ -90,7 +90,7 @@ const Home:React.FC = ()=>{
                 action="/"
                 onSubmit={e=>handleSubmit(e,item)}
                 > 
-                
+
                     <Input>
                         <input 
                         type="text" 
