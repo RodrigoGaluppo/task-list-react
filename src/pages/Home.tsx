@@ -29,9 +29,7 @@ const Home:React.FC = ()=>{
 
     const handleRemoveItem = (e: MouseEvent<HTMLButtonElement>,item:IItem)=>{
         const newItems:IItem[] = items.filter((I)=>{
-            if(I.id !== item.id){
-                return I
-            }
+            return I.id !== item.id
         })
         setItems(newItems)
     }
