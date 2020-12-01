@@ -1,0 +1,22 @@
+{
+    "name": "React-Tel-Picker",
+    "short_name": "Simmy",
+    "theme_color": "#176ca5",
+    "background_color": "#176ca5",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+    
+      {
+        "src": "./favicon.ico",
+        "type": "image/x-icon",
+        "sizes": "16x16"
+      },
+      {
+        "src": "./ListIcon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
